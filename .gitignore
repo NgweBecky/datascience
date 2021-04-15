@@ -1,0 +1,6 @@
+.vscode/
+drivers/
+venv/
+/detail.csv
+/geckodriver.log
+/requirements.txt
