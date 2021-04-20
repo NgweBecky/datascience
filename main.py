@@ -23,7 +23,7 @@ print(joined_list, sep=',')
 
 #create a csv file to save the scraped data
 
-with open("detail.csv", 'w') as csv_file:
+with open("detail.csv", 'a') as csv_file:
     writer = csv.writer(csv_file)
     for content in joined_list:
         writer.writerow(content)
